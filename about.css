@@ -1,0 +1,141 @@
+
+.logo1 img {
+    width: 400px;
+    padding: 20px 470px 0 470px;
+    margin: 0 auto 25px auto;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+
+/*float: left;どっかにおきたい*/
+
+nav ul li a {
+    margin: 5px 5px 40px 5px;
+    padding:40px 29px 0 29px;
+    width: 80px;
+    color: #565656;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*btnの上に来た時色が変わる*/
+nav ul li a:hover{
+    opacity: 1;
+    color: #d8915b;
+    border-bottom: solid 4px;
+    padding-bottom: 15px;
+    transition: 0.3s;
+
+}
+main {
+    margin: 5px;
+}
+
+.first-contents h2 {
+    color: white;
+    font-weight: normal;
+    background-color: #cf7b3b;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 50px;
+    padding: 0 25px;
+    margin: 40px 30px 20px 30px;
+}
+
+.second-contents h2 {
+    color: white;
+    font-weight: normal;
+    background-color: #cf7b3b;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 50px;
+    padding: 0 25px;
+    margin: 20px 30px;
+}
+
+.contents h3{
+    font-size: 16px;
+    font-weight: normal;
+    border: 1px solid #d3d3d3;
+    line-height: 50px;
+    border-radius: 10px;
+    padding: 0 25px;
+    margin: 5px 30px 15px 30px;
+    color: #565656;
+
+}
+
+.contents h4 {
+    color: #cf7b3b;
+    margin: 5px 50px;
+}
+
+.contents p {
+    color: #565656;
+    line-height: 2em;
+    margin: 5px 50px;
+}
+
+.contents a {
+    color: #565656;
+}
+
+.contents a:hover{
+    color: #d8915b;
+}
+
+.important {
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.color-font {
+    color: #d8915b;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #828282;
+    margin: 5px 30px 20px 30px;
+    width: 95%;
+}
+
+
+tr {
+    height: 60px;
+    color: #565656;
+    padding: 20px;
+}
+
+.first-topics {
+    margin-left: 10px;
+}
+
+.topics {
+    font-weight: bold;
+    width: 25%;
+}
+
+.explain {
+    font-weight: normal;
+    width: 75%;
+}
+
+footer{
+    background-color: white;
+    height: 50px;
+    font-size: 12px;
+    text-align: center;
+   
+}

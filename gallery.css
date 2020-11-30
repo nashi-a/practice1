@@ -1,0 +1,97 @@
+.logo1 img {
+    width: 400px;
+    padding: 20px 470px 0 470px;
+    margin: 0 auto 25px auto;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+
+/*float: left;どっかにおきたい*/
+
+nav ul li a {
+    margin: 5px;
+    padding:40px 30px 0 30px;
+    width: 80px;
+    color: #565656;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*btnの上に来た時色が変わる*/
+nav ul li a:hover{
+    opacity: 1;
+    color: #d8915b;
+    border-bottom: solid 4px;
+    padding-bottom: 15px;
+    transition: 0.3s;
+
+}
+.contents h2 {
+    color: white;
+    font-weight: normal;
+    background-color: #cf7b3b;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 50px;
+    padding: 0 25px;
+    margin: 45px 30px 30px 30px;
+}
+
+main img {
+    width: 250px;
+    height: 255px;
+    margin: 10px 35px 10px 50px;
+
+}
+
+.first-photo {
+   height: 280px;
+    
+}
+
+.second-photo {
+    height: 280px;
+}
+.third-photo  {
+    height: 280px;
+}   
+
+.forth-photo {
+    height: 280px;
+}
+
+.fifth-photo {
+    height: 280px;
+}
+  
+.para {
+    margin-top: 20px;
+}
+
+.important {
+    color: #cf7b3b;
+    margin-top: 20px;
+}
+
+hr {
+    color: #e3e3e3;
+    margin: 10px 30px 10px 30px;
+    
+}
+footer{
+    background-color: white;
+    height: 50px;
+    font-size: 12px;
+    text-align: center;
+   
+}
